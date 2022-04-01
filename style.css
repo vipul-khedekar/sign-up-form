@@ -1,0 +1,11 @@
+:root {
+    --poppins-font: 'Poppins', sans-serif;
+    --anybody-font: 'Anybody', cursive;
+    --backdrop-color: rgba(0, 0, 0, 1.0);
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
