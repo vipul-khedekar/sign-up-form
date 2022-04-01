@@ -1,11 +1,30 @@
 :root {
     --poppins-font: 'Poppins', sans-serif;
     --anybody-font: 'Anybody', cursive;
-    --backdrop-color: rgba(0, 0, 0, 1.0);
 }
 
 body {
     box-sizing: border-box;
     padding: 0rem;
     margin: 0rem;
+
+    display: flex;
+    justify-content: center;
+    background-color: #1d1e1f;
+}
+
+.form-container {
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    background-color: #f7f7f7;
+}
+
+.name-container {
+    display: flex;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
 }
