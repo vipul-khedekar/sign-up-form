@@ -53,3 +53,30 @@ body {
     font-family: var(--anybody-font);
     font-size: 2rem;
 }
+
+.signup-container {
+    height: 45vh;
+    width: 70vw;
+    margin-left: -1.5rem;
+    background-color: #ffffff;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #b4454e;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #b4454edd;
+}
+
+p a {
+    text-decoration: none;
+    color: #b4454e;
+}
