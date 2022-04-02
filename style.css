@@ -80,3 +80,38 @@ p a {
     text-decoration: none;
     color: #b4454e;
 }
+
+.signup-container p {
+    margin: 1.5rem;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input {
+    margin: 0rem 1.5rem;
+}
+
+input {
+    height: 1.5rem;
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.email {
+    width: 10rem;
+}
+
+[type=number] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
