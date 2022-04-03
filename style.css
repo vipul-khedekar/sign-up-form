@@ -110,8 +110,3 @@ input {
 .email {
     width: 10rem;
 }
-
-[type=number] {
-    -webkit-appearance: none;
-    -moz-appearance: textfield;
-}
