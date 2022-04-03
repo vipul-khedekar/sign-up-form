@@ -30,43 +30,43 @@
 
             <div class="signup-container">
                 <p>Let's do this!</p>
-                <form id="signup-form" method="get">
+                <form id="signup-form" action="#" method="get">
                     <div class="row1">
                         <div class="input-container">
                             <label for="first_name">FIRST NAME</label>
-                            <input id="first_name" type="text">
+                            <input type="text" id="first_name" name="firstName" required>
                         </div>
                         <div class="input-container">
                             <label for="last_name">LAST NAME</label>
-                            <input id="last_name" type="text">
+                            <input type="text" id="last_name" name="lastName" required>
                         </div>
                     </div>
 
                     <div class="row2"></div>
                         <div class="input-container">
                             <label for="email">EMAIL</label>
-                            <input class="email" id="email" type="email">
+                            <input type="email" id="email" name="email" placeholder="abc@domain.com" pattern="[a-z0-9.]+@[a-z]+\.[a-z]{2}" required>
                         </div>
                         <div class="input-container">
                             <label for="phone">PHONE</label>
-                            <input id="phone" type="number">
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10,10}" required>
                         </div>
                     
                     <div class="row3">
                         <div class="input-container">
                             <label for="password">PASSWORD</label>
-                            <input id="password" type="password">
+                            <input type="password" id="password" name="password" pattern="[a-zA-z0-9]{8,14}" required>
                         </div>
                         <div class="input-container">
                             <label for="confirm_pass">CONFIRM PASSWORD</label>
-                            <input id="confirm_pass" type="password">
+                            <input type="password" id="confirm_pass" name="confirmPassword" pattern="[a-zA-z0-9]{8,14}" required>
                         </div>
                     </div>
                 </form>
             </div>
 
             <div class="account-conatiner">
-                <button id="signup-form" type="submit">Create Account</button>
+                <button form="signup-form" type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
